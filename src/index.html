@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Video でプリロール動画を再生できるようにする</title>
+</head>
+<body>
+
+	<video src="sample.m4v" id="example" controls poster="sample.png" width="320" height="320"></video>
+
+	<script src="js/pre-roll-video.js"></script>
+	<script>
+		window.videoPlayer = new preRollVideo.VideoPlayer("example");
+		window.videoPlayer.setPreRollVideo("sample.mp4");
+	</script>
+
+</body>
+</html>
