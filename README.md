@@ -6,9 +6,9 @@ HTML5 Video でプリロール動画を再生できるようにする
 
 # 使い方
 1.videoタグをID付きで宣言する
-<code>
-&lt;video src="本編動画のパス" id="example" controls poster="sample.png" width="320" height="320"&gt;&lt;/video&gt;
-</code>
+```html	
+<video src="本編動画のパス" id="example" controls poster="sample.png" width="320" height="320"></video>
+```
 
 2.初期化
 ```html	
